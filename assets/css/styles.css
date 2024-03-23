@@ -1,0 +1,31 @@
+/* HOJA DE ESTILO */
+body{
+    
+    /* centrar todo */
+    padding: 100px;
+}
+
+/* tamaño y forma de la fotografia */
+.perro{
+    border-radius: 10px;
+    width: 200px;
+}
+
+.gato{
+    border-radius: 10px;
+    width: 200px;
+}
+
+/* posicion columna */
+.fotografias{
+    display: flex;
+}
+
+.columna_izq{
+    width: 50%;
+}
+
+.columna_der{
+    width: 50%;
+}
+

@@ -1,0 +1,37 @@
+/* HOJA DE ESTILO */
+body{
+    
+    /* centrar todo */
+    padding: 100px;
+}
+
+/* posicion columna */
+.perro_adop{
+    display: flex;
+}
+
+
+/* tamaño y forma de la fotografia */
+.perro1{
+    border-radius: 10px;
+    width: 200px;
+}
+
+.perro2{
+    border-radius: 10px;
+    width: 200px;
+}
+.perro3{
+    border-radius: 10px;
+    width: 200px;
+}
+
+.fotos{
+    width: 50%;
+}
+
+.nombres{
+    width: 50%;
+}
+
+
