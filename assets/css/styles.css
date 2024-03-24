@@ -1,19 +1,18 @@
 /* HOJA DE ESTILO */
 body{
-    
-    /* centrar todo */
-    padding: 100px;
+   
+
 }
 
 /* tamaño y forma de la fotografia */
 .perro{
     border-radius: 10px;
-    width: 200px;
+    width: 400px;
 }
 
 .gato{
     border-radius: 10px;
-    width: 200px;
+    width: 400px;
 }
 
 /* posicion columna */
@@ -28,4 +27,21 @@ body{
 .columna_der{
     width: 50%;
 }
+
+/*CONFIG PERFIL CACHUDO*/
+.perfil_cachudo{
+    display: flex;
+}
+
+.col_izq{
+    width: 50%;
+}
+.col_der{
+    width: 50%;
+}
+.foto_cachudo{
+    border-radius: 10px;
+    width: 400px;
+}
+
 
