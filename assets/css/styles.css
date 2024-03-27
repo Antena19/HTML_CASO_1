@@ -1,47 +1,72 @@
-/* HOJA DE ESTILO */
-body{
-   
-
+/* HOJA DE ESTILO MENU INICIO */
+*{
+    padding: 0px;
+    margin: 0px;
 }
-
-/* tamaño y forma de la fotografia */
-.perro{
-    border-radius: 10px;
-    width: 400px;
+:root{
+    --color1:#343434;
+    --color2:#01d7f4;
+    --color3:#FFdf03;
+    --color4:#fd7b03;
+    --color5:#FF0014;
+    --color6:#fff;
+    --color7:#d2d2d2;       
 }
-
-.gato{
-    border-radius: 10px;
-    width: 400px;
-}
-
-/* posicion columna */
-.fotografias{
+.caja_padre{
     display: flex;
 }
-
-.columna_izq{
-    width: 50%;
+/* COLUMNA IZQUIERDA */
+.columna-20{
+    width: 20%;
+    /* columna izquierda que sea de color gris oscuro */
+    background-color: var(--color1);
+    text-align: center;
 }
 
-.columna_der{
-    width: 50%;
+/* COLOR PARA EL TEXTO DENTRO DE LOS BOTONES */
+.boton{
+    color: white;
+    /* PARA SACAR LA LINEA DE VINCULO */
+    text-decoration: none;     
 }
+.lista{
+    /* PARA SEPARAR LOS TEXTOS */
+    margin-bottom: 20px;
+    /* PARA QUE EL PRIMER TEXTO NO QUEDE PEGADO ARRIBA */
+    padding-top: 50px;
 
-/*CONFIG PERFIL CACHUDO*/
-.perfil_cachudo{
-    display: flex;
 }
-
-.col_izq{
-    width: 50%;
+/* COLUMNA DERECHA */
+.columna-80{
+    width: 80%;
+    text-align: center;
+    
 }
-.col_der{
-    width: 50%;
+.altura-25{
+    /* LA CAJA USA EL 25% DEL ALTO DE LA PAGINA */
+    height: 25vh;
+    padding-top: 20px;
+    
+    
 }
-.foto_cachudo{
-    border-radius: 10px;
-    width: 400px;
+.caja1{
+    background-color: var(--color2);
+    color: white;
+    }
+.caja2{
+    background-color: var(--color3);
+    color: white;
 }
-
+.caja3{
+    background-color: var(--color4);
+    color: white;
+}
+.caja4{
+    background-color: var(--color5);
+    color: white;
+}
+/*CAMBIA EL COLOR AL PASAR POR SOBRE LOS BOTONES */
+.boton:hover{
+    color: var(--color7);
+}
 

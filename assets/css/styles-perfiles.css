@@ -1,0 +1,57 @@
+body{
+    background-color: red;
+}
+.perfil_cachudo{
+    display: flex;
+    padding: auto;
+    margin: 30px;
+}
+.perfil_niña{
+    display: flex;
+    padding: auto;
+    margin: 30px;
+}
+.perfil_flaca{
+    display: flex;
+    padding: auto;
+    margin: 30px;
+}
+.perfil_ginger{
+    display: flex;
+    padding: auto;
+    margin: 30px;
+}
+.perfil_tommy{
+    display: flex;
+    padding: auto;
+    margin: 30px;
+}
+.perfil_lucifer{
+    display: flex;
+    padding: auto;
+    margin: 30px;
+}
+.foto_cachudo{
+    border-radius: 10px;
+    width: 500px;
+}
+.foto_niña{
+    border-radius: 10px;
+    width: 500px;
+}
+.foto_flaca{
+    border-radius: 10px;
+    width: 500px;
+}
+.foto_ginger{
+    border-radius: 10px;
+    width: 500px;
+}
+.foto_tommy{
+    border-radius: 10px;
+    width: 500px;
+}
+.foto_lucifer{
+    border-radius: 10px;
+    width: 500px;
+}

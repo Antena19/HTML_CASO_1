@@ -1,0 +1,50 @@
+/* HOJA DE ESTILO PARA "NOSOTROS" */
+body{
+    background-color: #01d7f4;
+    padding: 10px;
+    margin: 30px;
+}
+.principal{
+    text-align: center;
+}
+.h2{
+    text-align: center;
+}
+.tercera{
+    text-align: center;
+}
+.section-perros{
+    display: flex;
+    margin: 20px;
+}
+.section-gatos{
+    display: flex;
+    margin: 20px;
+}
+.col-izq{
+    width: 30%;
+}
+.col-der{
+    width: 50%;
+    
+
+}
+.col_izq{
+    width: 30%;
+
+}
+.col_der{
+    width: 50%;
+
+}
+.perro{
+    border-radius: 10px;
+    width: 300px;
+}
+.gato{
+    border-radius: 10px;
+    width: 300px;
+}
+
+
+

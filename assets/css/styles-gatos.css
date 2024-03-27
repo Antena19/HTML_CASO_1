@@ -1,0 +1,49 @@
+body{
+    background-color: #fd7b03;
+    padding: 20px;
+}
+.caja1{
+    text-align: center;
+}
+.gato-1{
+    display: flex;
+       
+}
+.gato-2{
+    display: flex;
+}
+.gato-3{
+    display: flex;
+}
+   
+
+.gato1{
+    border-radius: 10px;
+    width: 300px;
+}
+.gato2{
+    border-radius: 10px;
+    width: 300px;
+}
+.gato3{
+    border-radius: 10px;
+    width: 300px;
+}
+.col-izq1{
+    width: 30%;
+}
+.col-der1{
+    width: 50%;
+}
+.col-izq2{
+    width: 30%;
+}
+.col-der2{
+    width: 50%;
+}
+.col-izq3{
+    width: 30%;
+}
+.col-der3{
+    width: 50%;
+}

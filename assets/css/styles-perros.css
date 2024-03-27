@@ -1,0 +1,49 @@
+body{
+    background-color: #FFdf03;
+    padding: 20px;
+}
+.caja-1{
+    text-align: center;
+}
+.perro-1{
+    display: flex;
+       
+}
+.perro-2{
+    display: flex;
+}
+.perro-3{
+    display: flex;
+}
+   
+
+.perro1{
+    border-radius: 10px;
+    width: 300px;
+}
+.perro2{
+    border-radius: 10px;
+    width: 300px;
+}
+.perro3{
+    border-radius: 10px;
+    width: 300px;
+}
+.col-izq1{
+    width: 30%;
+}
+.col-der1{
+    width: 50%;
+}
+.col-izq2{
+    width: 30%;
+}
+.col-der2{
+    width: 50%;
+}
+.col-izq3{
+    width: 30%;
+}
+.col-der3{
+    width: 50%;
+}
